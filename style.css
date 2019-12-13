@@ -42,16 +42,26 @@ body{
 }
 
 .direction-link{
-    max-width: 426px;
+    max-width: 420px;
     width: 100%;
     background-color: var(--clr2);
-    padding: 17px 0;
+    padding: 16px 0;
     border-radius: 31px;
+    border: 3px solid var(--clr2);
     color: white;
     text-decoration: none;
     margin: 35px 0;
     display: block;
     text-align: center;
+    transition: 300ms;
+    webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+}
+.direction-link:hover{
+    background-color: white;
+    color: var(--clr2);
+
 }
 .map-img{
     max-width: 1055px;
