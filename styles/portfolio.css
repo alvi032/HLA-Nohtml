@@ -46,7 +46,7 @@
 .next-portfolio img{
     width: 100%;
 }
-.next-portfolio p{
+.next-portfolio a p{
     position: absolute;
     bottom: 10px;
     left: 20px;
@@ -54,5 +54,5 @@
 .project-details{
     color: #535353;
     position: absolute;
-
+    bottom: -210px;
 }
