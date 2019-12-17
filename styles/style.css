@@ -7,6 +7,14 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 102px;
+}
+.body-wrapper{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
 }
 .home-carousel{
     padding-top: 68px;
@@ -28,13 +36,13 @@ body{
     bottom: 4%;
     right: 0;
 }
-.contact-info{
+.contact-div{
     display: grid;
     grid-template-columns: 485px auto;
     border: 3px solid var(--clr3);
     border-radius: 38px;
 }
-.contact-info>div{
+.contact-info{
     padding: 52px 35px;
     min-width: 300px;
     max-width: 485px;
@@ -61,13 +69,15 @@ body{
 .direction-link:hover{
     background-color: white;
     color: var(--clr2);
-
 }
-.map-img{
-    max-width: 1055px;
+.map-div{
     width: 100%;
-    border-radius: 0 34px 34px 0;
-    place-self: end;
+    height: 100%;
+    background-image: url("../images/home/map.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 38px 38px 0;
 }
 .map-location{
     place-self: flex-end;

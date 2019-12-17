@@ -1,0 +1,15 @@
+.work-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 210px;
+    column-gap: 28px;
+    row-gap: 28px;
+}
+.work-content a{
+    padding: 0;
+    margin: 0;
+}
+.work-content img{
+    max-width: 455px;
+    width: 100%;
+}

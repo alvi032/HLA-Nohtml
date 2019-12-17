@@ -1,16 +1,16 @@
 @font-face{
-    src: url("Fonts/HelveticaNeueLight.ttf");
+    src: url("../Fonts/HelveticaNeueLight.ttf");
     font-family: "helveticaneue";
     font-weight: 300;
 }
 @font-face{
-    src: url("Fonts/HelveticaNeueLTPro-LtIt.otf");
+    src: url("../Fonts/HelveticaNeueLTPro-LtIt.otf");
     font-family: "helveticaneue";
     font-weight: 300;
     font-style: italic;
 }
 @font-face {
-    src: url("Fonts/HelveticaNeue-Medium.otf");
+    src: url("../Fonts/HelveticaNeue-Medium.otf");
     font-family: "helveticaneue";
     font-weight: 500;
 }
