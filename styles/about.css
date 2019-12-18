@@ -11,3 +11,12 @@
     max-width: 435px;
     width: 100%;
 }
+@media (max-width: 1023px) {
+    .about-content{
+        flex-direction: column-reverse;
+        padding-top: 20px;
+    }
+    .about-content img{
+        max-width: unset;
+    }
+}

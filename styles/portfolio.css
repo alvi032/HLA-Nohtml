@@ -11,8 +11,14 @@
     position: relative;
 }
 .portfolio-img{
+    position: relative;
+}
+.portfolio-img-desktop{
     max-width: 587px;
     width: 100%;
+}
+.portfolio-img-mobile{
+    display: none;
 }
 .portfolio-img-caption{
     background: rgba(00,96,100,0.71);
@@ -57,4 +63,27 @@
     color: #535353;
     position: absolute;
     bottom: -210px;
+}
+@media (max-width: 1023px){
+    .portfolio-content{
+        padding-top: 20px;
+    }
+    .portfolio-img-desktop{
+        display: none;
+    }
+    .portfolio-img-mobile{
+        display: unset;
+        width: 100%;
+    }
+    .portfolio-img-text{
+        padding-top: 70px;
+        position: unset;
+        max-width: 225px;
+    }
+    .portfolio-img-caption{
+        bottom: -50px;
+        right: 7%;
+        padding: 10px 43px 10px 10px;
+        white-space: nowrap;
+    }
 }
