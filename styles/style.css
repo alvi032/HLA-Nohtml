@@ -115,6 +115,12 @@ hr{
     }
 }
 @media (max-width: 1023px) {
+    .body-wrapper{
+        flex-direction: column;
+    }
+    .body-wrapper .container{
+        width: 100%;
+    }
     .desktop-carousel{
         display: none;
     }
