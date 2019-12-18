@@ -44,3 +44,14 @@ body{
     font-weight: 500;
     font-size: 5.9375rem;
 }
+@media (max-width: 1023px){
+    .medium-5\.9375rem{
+        font-size: 4rem;
+        letter-spacing: 0 !important;
+        line-height: 0.7;
+    }
+    .medium-2\.8125rem{
+      font-size: 1.5rem;
+    }
+
+}

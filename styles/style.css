@@ -3,6 +3,9 @@
     --clr2: #FFA825;
     --clr3: #707070;
 }
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     padding: 0;
@@ -15,6 +18,9 @@ body{
     display: flex;
     flex-direction: row;
     margin: auto;
+}
+hr{
+    opacity: 50%;
 }
 .home-carousel{
     padding-top: 68px;
@@ -29,6 +35,9 @@ body{
     width: 91.4%;
     padding: 0 4.3%;
 }
+.mobile-carousel{
+    display: none;
+}
 .home-carousel-caption{
     background: rgba(00,96,100,0.71);
     position: absolute;
@@ -41,6 +50,9 @@ body{
     grid-template-columns: 485px auto;
     border: 3px solid var(--clr3);
     border-radius: 38px;
+    -webkit-box-shadow: 3px -5px 5px 0px rgba(143,143,143,0.5);
+    -moz-box-shadow: 3px -5px 5px 0px rgba(143,143,143,0.5);
+    box-shadow: 3px -5px 5px 0px rgba(143,143,143,0.5);
 }
 .contact-info{
     padding: 52px 35px;
@@ -85,4 +97,61 @@ body{
     width: 100%;
     height: 100%;
     border-radius: 0 34px 34px 0;
+}
+.contact-social-links{
+    display: flex;
+    max-width: 115px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.contact-social-links img{
+    height: 50px;
+    width: 50px;
+}
+@media (max-width: 1280px){
+    .contact-div{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 1023px) {
+    .desktop-carousel{
+        display: none;
+    }
+    .mobile-carousel{
+        display: unset;
+    }
+    .home-carousel{
+        padding-top: 40px;
+    }
+    .home-carousel img{
+        width: 100%;
+        padding: 0;
+    }
+    .home-carousel-caption{
+        bottom: -50px;
+        right: 7%;
+    }
+    .container-lol{
+        width: unset !important;
+        padding: unset !important;
+    }
+    .contact-div{
+        grid-template-columns: auto;
+    }
+    .map-div{
+        height: 400px;
+        border-radius: 0 0 34px 34px;
+    }
+    .home-carousel-caption{
+        padding: 10px 43px 10px 10px;
+        white-space: nowrap;
+    }
+    .ls-s{
+        letter-spacing: 0;
+    }
+    .contact-social-links{
+        margin: 0;
+    }
+
 }
