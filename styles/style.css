@@ -34,6 +34,8 @@ hr{
     max-width: 1553px;
     width: 91.4%;
     padding: 0 4.3%;
+    height: 100%;
+    margin: auto;
 }
 .mobile-carousel{
     display: none;
@@ -132,7 +134,9 @@ hr{
     }
     .home-carousel img{
         width: 100%;
+
         padding: 0;
+
     }
     .home-carousel-caption{
         bottom: -50px;
