@@ -43,7 +43,7 @@ hr{
 .home-carousel-caption{
     background: rgba(00,96,100,0.71);
     position: absolute;
-    padding: 0 96px 23px 23px;
+    padding: 25px 96px 23px 23px;
     bottom: 4%;
     right: 0;
 }
@@ -141,6 +141,8 @@ hr{
     .home-carousel-caption{
         bottom: -50px;
         right: 7%;
+        padding: 20px 43px 10px 10px;
+        white-space: nowrap;
     }
     .container-lol{
         width: unset !important;
@@ -155,10 +157,6 @@ hr{
     .map-div{
         height: 250px;
         border-radius: 0 0 34px 34px;
-    }
-    .home-carousel-caption{
-        padding: 20px 43px 10px 10px;
-        white-space: nowrap;
     }
     .ls-s{
         letter-spacing: 0;
