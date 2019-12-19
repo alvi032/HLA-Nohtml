@@ -10,6 +10,8 @@
 .about-content img{
     max-width: 435px;
     width: 100%;
+    height: auto;
+    margin: auto;
 }
 @media (max-width: 1023px) {
     .about-content{
