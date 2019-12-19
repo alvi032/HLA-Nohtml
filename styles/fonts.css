@@ -46,12 +46,12 @@ body{
 }
 @media (max-width: 1023px){
     .medium-5\.9375rem{
-        font-size: 4rem;
+        font-size: 3rem;
         letter-spacing: 0 !important;
         line-height: 0.7 !important;
     }
     .medium-2\.8125rem{
-      font-size: 1.5rem !important;
+      font-size: 1.125rem !important;
     }
 
 }
