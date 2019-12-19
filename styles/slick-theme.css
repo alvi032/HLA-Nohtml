@@ -210,3 +210,8 @@
     opacity: 1;
     color: #005396;
 }
+@media (max-width: 1023px){
+    .slick-next, .slick-prev{
+        display: none !important;
+    }
+}
