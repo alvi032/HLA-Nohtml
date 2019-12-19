@@ -41,7 +41,8 @@ hr{
     display: none;
 }
 .home-carousel-caption{
-    background: rgba(00,96,100,0.71);
+    /*background: rgba(00,96,100,0.71);*/
+    background: rgba(0, 67, 70, 0.71);
     position: absolute;
     padding: 25px 96px 23px 23px;
     bottom: 4%;
