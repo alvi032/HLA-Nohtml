@@ -149,8 +149,11 @@ hr{
     .contact-div{
         grid-template-columns: auto;
     }
+    .contact-info{
+        padding: 35px 24px 15px;
+    }
     .map-div{
-        height: 400px;
+        height: 250px;
         border-radius: 0 0 34px 34px;
     }
     .home-carousel-caption{
