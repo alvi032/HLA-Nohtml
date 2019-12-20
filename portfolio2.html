@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/styling.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/portfolio.css">
+    <link rel="stylesheet" href="styles/slick.css">
+    <link rel="stylesheet" href="styles/slick-theme.css">
+</head>
+<body>
+<div class="body-wrapper container">
+    <header>
+        <nav class="container">
+            <a href="index"><img src="images/HLA%20logo.png" alt="" class="header-logo"></a>
+            <div>
+                <ul>
+                    <li><a href="work">Work</a></li>
+                    <li class="about-li"><a href="about" class="orange">About</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="portfolio-content">
+        <div class="portfolio-img-div">
+            <div class="portfolio-img">
+                <div class="desktop-only">
+                    <div class="slick-slider-view">
+                        <img src="images/portfolio/portfolio%20page%20image.jpg" alt="Portfolio"
+                             class="portfolio-img-desktop">
+                        <img src="images/portfolio/portfolio%20page%20image.jpg" alt="Portfolio"
+                             class="portfolio-img-desktop">
+                        <img src="images/portfolio/portfolio%20page%20image.jpg" alt="Portfolio"
+                             class="portfolio-img-desktop">
+                    </div>
+                </div>
+                <div class="mobile-only">
+                    <div class="slick-slider-view">
+                        <img src="images/portfolio/portfolio%20page%20image-mobile.jpg" alt="Portfolio"
+                             class="portfolio-img-desktop">
+                        <img src="images/portfolio/portfolio%20page%20image-mobile.jpg" alt="Portfolio"
+                             class="portfolio-img-desktop">
+                        <img src="images/portfolio/portfolio%20page%20image-mobile.jpg" alt="Portfolio"
+                             class="portfolio-img-desktop">
+                    </div>
+                </div>
+                <div class="portfolio-img-caption">
+                    <p class="medium-4.9375rem mg-0 ls-s white">NOVU</p>
+                    <p class="medium-2.2125rem orange mg-0">PAN ASIAN CUSINE</p>
+                </div>
+            </div>
+            <p class="portfolio-img-text medium-1.5rem">
+                Novu is a Pan Asian Cuisine located at the heart of Lahore near Hussain Chowk Gulberg. We sat with are
+                friends at Novu to design luxurious experience for the town.
+                <br><br>
+                2018
+                <br>
+                1500 SFT
+            </p>
+        </div>
+        <div class="next-portfolio">
+            <a href="portfolio3">
+                <div>
+                    <img src="images/portfolio/nextprojectbanner.jpg" alt="Next Project">
+                    <p class="white medium-1.5rem mg-0">Next Project</p>
+                </div>
+            </a>
+
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <p class="light-italic-1.5rem mg-0">© Copyrights Hidden Lines Architects L.L.C</p>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="slick.js"></script>
+<script>
+    $(".slick-slider-view").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    });
+</script>
+
+</body>
+</html>

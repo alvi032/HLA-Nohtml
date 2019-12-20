@@ -39,3 +39,8 @@ nav a:hover{
         padding-top: 10px;
     }
 }
+@media (max-width: 500px){
+    .header-logo{
+        height: 55px;
+    }
+}
