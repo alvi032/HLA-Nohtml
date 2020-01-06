@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/slick.css">
+    <link rel="stylesheet" href="styles/slick-theme.css">
 </head>
 <body>
 <header>
@@ -27,13 +29,28 @@
 </header>
 
 <section>
-    <div class="container home-carousel">
-        <img src="images/home/Homepagecarousel.jpg" alt="NOVU Restaurant" class="desktop-carousel">
-        <img src="images/home/Homepagecarousel-mobile.jpg" alt="NOVU Restaurant" class="mobile-carousel">
-        <div class="home-carousel-caption">
-<!--            Home Page Image Caption-->
-            <p class="medium-4.9375rem mg-0 ls-s white">NOVU</p>
-            <p class="medium-2.2125rem orange mg-0">PAN ASIAN CUISINE</p>
+    <div class="container home-carousel home-slider">
+        <div class="home-slider-slide">
+            <img src="images/home/Homepagecarousel.jpg" alt="NOVU Restaurant" class="desktop-carousel">
+            <img src="images/home/Homepagecarousel-mobile.jpg" alt="NOVU Restaurant" class="mobile-carousel">
+            <div class="slider-caption-container">
+                <div class="home-carousel-caption">
+                    <!--            Home Page Image Caption-->
+                    <p class="medium-4.9375rem mg-0 ls-s white">NOVU</p>
+                    <p class="medium-2.2125rem orange mg-0">PAN ASIAN CUISINE</p>
+                </div>
+            </div>
+        </div>
+        <div class="home-slider-slide">
+            <img src="images/home/Homepagecarousel.jpg" alt="NOVU Restaurant" class="desktop-carousel">
+            <img src="images/home/Homepagecarousel-mobile.jpg" alt="NOVU Restaurant" class="mobile-carousel">
+            <div class="slider-caption-container">
+                <div class="home-carousel-caption">
+                    <!--            Home Page Image Caption-->
+                    <p class="medium-4.9375rem mg-0 ls-s white">NOVU</p>
+                    <p class="medium-2.2125rem orange mg-0">PAN ASIAN CUISINE</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -74,5 +91,10 @@
         <p class="light-italic-1.5rem mg-0">© Copyrights Hidden Lines Architects L.L.C</p>
     </div>
 </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="slick.js"></script>
+<script>
+    $('.home-slider').slick();
+</script>
 </body>
 </html>
